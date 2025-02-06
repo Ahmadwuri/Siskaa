@@ -1,0 +1,106 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Siska
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-image: url('pic1.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            font-family: 'Roboto', sans-serif;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas: 
+                "top-left top-right"
+                "bottom-left bottom-right"
+                "text text"
+                "button button"
+                ". bottom-text";
+            gap: 20px;
+            text-align: center;
+            position: relative; 
+        }
+
+        .box {
+            width: 150px;
+            height: 200px;
+            border: 2px solid white;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text {
+            color: skyblue;
+            border: 2px solid white;
+            background-color: rgba(37, 37, 37, 0.7);
+            padding: 5px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-style: inherit;
+            font-weight: bolder;
+            font-size: 15px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .text-center {
+            grid-area: text;
+        }
+
+        .button {
+            grid-area: button;
+            padding: 10px 20px;
+            font-size: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #ADD8E6;
+            color: black;
+            margin: auto;
+        }
+  </style>
+ </head>
+ <body>
+  <audio autoplay="">
+   <source src="hehe.mp3" type="audio/mpeg"/>
+   Your browser does not support the audio element.
+  </audio>
+  <div class="container">
+   <div class="text text-center">
+    <p>
+     aloo siska
+    </p>
+    <p>
+        kemarin kan aku ada bilang kalo aku ingin ngomong sesuatu ke kamu,tapi aku ga tau harus mulai dari mana biar ga canggung.
+        sebelum itu aku tau kita jarang bertemu dan
+        selama ini juga aku ga pernah lakuin sesuatu yg ber effort buat kamu,tapi bukan karna aku ga peduli hanya saja aku lebih menghormati privasi dan kesibukan kamu agar ga keganggu karna aku. dan sekarang aku mau jujur ke kamu,sesuatu yg udah lama ku pendam cukup lama, sebenarnya aku suka sama kamu dari setahun yg lalu,hanya saja aku takut kalo ngomong nanti hubungan kita bakal asing dan canggung.
+        itu karna aku ga mau kehilangan kamu,tapi aku juga ga bisa pendam trus perasaan ini yg menghantuiku selama setahun ini.aku cuman mau kamu tau dan aku harap apapun jawaban kamu,di terima atau engga nya aku jadi pasangan kamu,kita tetap masih jadi teman yg saling support walaupun mungkin akan ada kecanggungan dan kesedihan.
+    </p>
+    <p>
+        jadiii gimana siska? DO YOU WANT TO BE MY GIRLFRIEND?
+    </p>
+   </div>
+   <a class="button" href="https://api.whatsapp.com/send?phone=6281378835355&amp;text=HAI">
+    WhatsApp
+   </a>
+  </div>
+ </body>
+</html>
